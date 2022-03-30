@@ -4,7 +4,8 @@ A paper list with short personal categorization/review of uncertainty quantifica
 
 > Everything originated from the *apeiron*.                                 --- Anaximander
 
-##
+## PAPERS
+
 1. [On Feature Collapse and Deep Kernel Learning for Single Forward Pass Uncertainty](http://bayesiandeeplearning.org/2021/papers/28.pdf)
 
    *Joost van Amersfoort, Lewis Smith, Andrew Jesson, Oscar Key, Yarin Gal*
@@ -107,3 +108,21 @@ A paper list with short personal categorization/review of uncertainty quantifica
     ...we focus on exploring the ben-efits of quantifying both model and data uncertainties in thecontext of various natural language processing (NLP) tasks...
 
    **Why this matters:** The paper summarizes UQ on some NLP tasks to give some insights on language uncertainty, which is different from mainstream CV tasks. The summary of data/model uncertainty is so elegent and beautiful - Var(y) = Var(E\[y|x\])+E\[Var(y|x)\] = Um + Ud.
+   
+
+9. [Estimating predictive uncertainty for rumour verification models](https://aclanthology.org/2020.acl-main.623)
+
+   *Elena Kochkina and Maria Liakata*
+
+   `ACL 2020` 
+
+   `epistemic and aleatoric uncertainty`  `NLP`
+   
+ ## WORKSHOP
+ 1. [ICML'20] https://sites.google.com/view/udlworkshop2020/home
+ 
+ 2. [ICML'19] https://sites.google.com/view/udlworkshop2019/home
+
+
+## OTHERS
+1.  Awesome Uncertainty Estimation: https://github.com/lethaiq/AwesomeUncertaintyEstimation
