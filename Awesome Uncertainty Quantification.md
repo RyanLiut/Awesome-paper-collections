@@ -94,3 +94,16 @@ A paper list with short personal categorization/review of uncertainty quantifica
     ...we develop a new theoretical framework casting dropout training in deep neural networks (NNs) as approximate Bayesian inference in deep Gaussian processes...
 
    **Why this matters:** As the title shows, the paper formalizes dropout as a Bayesian approximation theoretically. In other words, it combines the efficiency of DL (practically) and the stochasticity of BNN (theoretically). It provides a Bayesian view on an otherwise trick on DL the same way as a probabilistic perspective on NN. 
+   
+  
+8. [Quantifying Uncertainties in Natural Language Processing Tasks](https://ojs.aaai.org/index.php/AAAI/article/view/4719/4597)
+
+   *Yijun Xiao and William Yang Wang*
+
+   `AAAI 2019` 
+
+   `epistemic and aleatoric uncertainty`  `NLP`
+
+    ...we focus on exploring the ben-efits of quantifying both model and data uncertainties in thecontext of various natural language processing (NLP) tasks...
+
+   **Why this matters:** The paper summarizes UQ on some NLP tasks to give some insights on language uncertainty, which is different from mainstream CV tasks. The summary of data/model uncertainty is so elegent and beautiful - Var(y) = Var(E\[y|x\])+E\[Var(y|x)\] = Um + Ud.
